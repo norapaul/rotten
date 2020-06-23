@@ -81,8 +81,10 @@ header p {
   padding: 10px 20px;
   border: 3px solid #91cfe3;
   box-sizing: border-box;
-  border-bottom : none;
+	margin-bottom : 5px ;
+
 }
+
 
 .site-nav a:hover {
   background-color: #91cfe3;
