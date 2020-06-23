@@ -1,5 +1,6 @@
 html {
-	background-color: #3085a1;
+/*?background-color: #3085a1;*/
+background-image: linear-gradient(to bottom, #3085a1, #7d552f);
 }
 
 head {
@@ -110,6 +111,7 @@ header p {
 	padding: 20px 40px;
 	box-sizing: border-box;
 	font-size: 85%;
+
 }
 
 footer {
