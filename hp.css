@@ -1,6 +1,6 @@
 html {
-/*?background-color: #3085a1;*/
-background-image: linear-gradient(to bottom, #3085a1, #7d552f);
+	background-image: linear-gradient(to bottom, #3085a1, #7d552f);
+	line-height: 1.7;
 }
 
 head {
@@ -111,6 +111,15 @@ header p {
 	padding: 20px 40px;
 	box-sizing: border-box;
 	font-size: 85%;
+
+}
+
+@media screen and (max-width : 700px) {
+	.main-area,
+	.sidebar {
+		width : auto;
+		float : none;
+	}
 
 }
 
