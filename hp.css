@@ -1,19 +1,47 @@
 html {
-	background-image: linear-gradient(to bottom, #3085a1, #7d552f);
+	background-image: linear-gradient(to bottom,#3085a1 , #7d552f);
 	line-height: 1.7;
 }
 
-head {
-  font-size: 165%;
-}
 body {
 	font-family: Tahoma, sans-serif;
 	font-size: 87%;
+	margin : 0;
+	padding : 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
 }
 
 img {
   max-width: 100%;
   height : auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (min-width: 1300px) {
+
+	body {
+		font-size: 17px;
+	}
+
+	.container {
+		max-width: 1200px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 }
 
 /*Bannner Overlay*/
@@ -114,11 +142,26 @@ header p {
 
 }
 
-@media screen and (max-width : 700px) {
-	.main-area,
-	.sidebar {
-		width : auto;
-		float : none;
+@media screen and (max-width: 700px) {
+
+	.site-nav li {
+		width: 33.332%;
+		margin-right: 0;
+	}
+
+	.site-nav a {
+		padding: 15px 0;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.site-nav li {
+		width: 50%;
 	}
 
 }
