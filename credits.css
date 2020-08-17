@@ -1,0 +1,193 @@
+html {
+	background-image: linear-gradient(to bottom,#3085a1 , #7d552f);
+	line-height: 1.7;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 87%;
+	margin : 0;
+	padding : 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height : auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (min-width: 1300px) {
+
+	body {
+		font-size: 17px;
+	}
+
+	.container {
+		max-width: 1200px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+}
+
+/*Bannner Overlay*/
+.image-banner {
+	position: relative;
+}
+
+.image-banner img {
+	display: block;
+}
+
+.banner-description {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, .65);
+	padding: 15px 25px;
+}
+
+.container {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+header {
+	padding-top: 20px;
+	color: black;
+}
+
+header h1 {
+	margin: 0;
+	font-weight: bold;
+	font-size: 165%;
+}
+
+header p {
+	margin: 0;
+}
+
+/*Sight Navigation*/
+.site-nav {
+  margin-top : 20px;
+}
+
+.site-nav ul {
+  margin : 0;
+  padding : 0;
+}
+
+.site-nav li {
+  list-style: none;
+  float : left;
+  margin-right : 5px;
+}
+
+.site-nav a {
+  display : block;
+  color:#3085a1 ;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 3px solid #91cfe3;
+  box-sizing: border-box;
+	margin-bottom : 5px ;
+
+}
+
+
+.site-nav a:hover {
+  background-color: #91cfe3;
+}
+/*End sight navigation*/
+
+.content-area {
+	border-top: 2px solid #91cfe3;
+	border-bottom: 2px solid #91cfe3;
+}
+
+.main-area {
+	width: 66%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+	font-size: 70%
+}
+
+.sidebar {
+	width: 34%;
+	float: left;
+	background-color:#91cfe3 ;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	font-size: 85%;
+
+}
+
+@media screen and (max-width: 700px) {
+
+	.site-nav li {
+		width: 33.332%;
+		margin-right: 0;
+	}
+
+	.site-nav a {
+		padding: 15px 0;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.site-nav li {
+		width: 50%;
+	}
+
+}
+
+footer {
+	text-align: center;
+	font-size: 85%;
+	color: #999;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.fix {
+	clear: both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
